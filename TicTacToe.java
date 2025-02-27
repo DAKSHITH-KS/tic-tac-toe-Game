@@ -28,7 +28,9 @@ public class TicTacToe {
         frame.setLayout(new BorderLayout());
 
         textLabel.setBackground(Color.darkGray);
-        textLabel.setForeground(Color.white);
+        textLabel.setForeground(Color.blue); // if the foreground color is white then placing X or O is not visible 
+// more over its like placing the X or O by hiding to opposite player
+// to win this game remeber his previous positions.
         textLabel.setFont(new Font("Arial", Font.BOLD, 50));
         textLabel.setHorizontalAlignment(JLabel.CENTER);
         textLabel.setText("Tic-Tac-Toe");
